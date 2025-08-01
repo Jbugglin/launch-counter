@@ -8,24 +8,77 @@
   
   <title>Frontend Mentor | Launch countdown timer</title>
 
+  <link rel="stylesheet" href="style.css">
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    
   </style>
 </head>
 <body>
+    <h1>We're launching soon</h1>
 
-  We're launching soon
+    <div id="countdownContainer">
+        <div id="daysContainer">
+            <div class="card">
+                <div class="topHalf"></div>
+                <div id="days"></div>
+                <div class="bottomHalf"></div>
+            </div>
+            <span>Days</span>
+        </div>
+        <div id="hoursContainer">
+            <div class="card">
+                <div class="topHalf"></div>
+                <div id="hours"></div>
+                <div class="bottomHalf"></div>
+            </div>
+            <span>Hours</span>
+        </div>
+        <div id="minutesContainer">
+            <div class="card">
+                <div class="topHalf"></div>
+                <div id="minutes"></div>
+                <div class="bottomHalf"></div>
+            </div>
+            <span>Minutes</span>
+        </div>
+        <div id="secondsContainer">
+            <div class="card">
+                <div class="topHalf"></div>
+                <div id="seconds"></div>
+                <div class="bottomHalf"></div>
+            </div>
+            <span>Seconds</span>
+        </div>
+    </div>
 
-  Days
-  Hours
-  Minutes
-  Seconds
+
+    <div id="socials">
+        <div class="socialsContainer">
+            <div id="facebook">
+                <a href="#">
+                    <img src="./images/icon-facebook.svg" alt="Facebook Link">
+                </a>
+            </div>
+            <div id="pinterest">
+                <a href="#">
+                    <img src="./images/icon-pinterest.svg" alt="Pinterest Link">
+                </a>
+            </div>
+            <div id="instagram">
+                <a href="#">
+                    <img src="./images/icon-instagram.svg" alt="Instagram Link">
+                </a>
+            </div>
+        </div>
+    </div> 
   
-  <div class="attribution">
+  
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
+    <script src="./time.js"></script>
 </body>
 </html>
